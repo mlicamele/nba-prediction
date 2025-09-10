@@ -1,10 +1,6 @@
 # nba-prediction
 
-A machine learning model to predict NBA game winners using a Ridge Classifier trained on scraped NBA team statistics and game data.
-
-## Overview
-
-This project predicts the winners of NBA games using comprehensive team statistics collected through web scraping. The model achieves 63% accuracy on test data using a Ridge Classifier algorithm trained on detailed team performance metrics including shooting percentages, rebounds, assists, and advanced statistics.
+Machine learning model to predict NBA games trained on scraped data.
 
 ## Features
 
@@ -137,5 +133,3 @@ The model incorporates:
 - **nba_games.csv**: Final processed dataset with all features
 - **data/scores/**: Raw game score data from scraping
 - **data/standings/**: Team standings and ranking data
-
----
